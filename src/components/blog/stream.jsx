@@ -46,6 +46,7 @@ export default function Stream ({ code }) {
   }
 
   useEffect(() => {
+    const host = window.location.hostname
     setChat(false)
     setFullscreen(false)
     setGc(false)
@@ -60,10 +61,10 @@ export default function Stream ({ code }) {
     setGpUrl(`https://goodgame.ru/player?${code.g}`)
     setMcUrl(code.m)
     setScUrl(`https://sc2tv.ru/${code.s}/chat`)
-    setTcUrl(`https://www.twitch.tv/embed/${code.t}/chat?parent=${import.meta.env.VITE_HOST}`)
-    setTpUrl(`https://player.twitch.tv/?channel=${code.t}&parent=${import.meta.env.VITE_HOST}`)
+    setTcUrl(`https://www.twitch.tv/embed/${code.t}/chat?parent=${host}`)
+    setTpUrl(`https://player.twitch.tv/?channel=${code.t}&parent=${host}`)
     setVpUrl(`https://vkplay.live/app/embed/${code.v}`)
-    setYcUrl(`https://www.youtube.com/live_chat?v=${code.y}&embed_domain=${import.meta.env.VITE_HOST}`)
+    setYcUrl(`https://www.youtube.com/live_chat?v=${code.y}&embed_domain=${host}`)
     setYpUrl(`https://www.youtube-nocookie.com/embed/${code.y}`)
   }, [code])
 
