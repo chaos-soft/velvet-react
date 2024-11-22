@@ -57,8 +57,8 @@ export default function Stream ({ code }) {
     setTp(false)
     setYc(false)
     setYp(false)
-    setGcUrl(`https://goodgame.ru/chat/${code.g}`)
-    setGpUrl(`https://goodgame.ru/player?${code.g}`)
+    setGcUrl(`https://goodgame.ru/${code.gc}/chat`)
+    setGpUrl(`https://goodgame.ru/player?${code.gp}`)
     setMcUrl(code.m)
     setScUrl(`https://sc2tv.ru/${code.s}/chat`)
     setTcUrl(`https://www.twitch.tv/embed/${code.t}/chat?parent=${host}`)
@@ -89,13 +89,13 @@ export default function Stream ({ code }) {
         </div>
         <div className='controls'>
           <span>плееры:</span>
-          {code.g && <a href={gpUrl} className={gp ? 'active' : ''} onClick={(e) => { setGp(!gp); e.preventDefault() }}>gg</a>}
+          {code.gp && <a href={gpUrl} className={gp ? 'active' : ''} onClick={(e) => { setGp(!gp); e.preventDefault() }}>gg</a>}
           {code.t && <a href={tpUrl} className={tp ? 'active' : ''} onClick={(e) => { setTp(!tp); e.preventDefault() }}>tw</a>}
           {code.v && <a href={vpUrl} className={vp ? 'active' : ''} onClick={(e) => { setVp(!vp); e.preventDefault() }}>vk</a>}
           {code.y && <a href={ypUrl} className={yp ? 'active' : ''} onClick={(e) => { setYp(!yp); e.preventDefault() }}>yt</a>}
 
           <span>чаты:</span>
-          {code.g && <a href={gcUrl} className={gc ? 'active' : ''} onClick={(e) => { setGc(!gc); e.preventDefault() }}>gg</a>}
+          {code.gc && <a href={gcUrl} className={gc ? 'active' : ''} onClick={(e) => { setGc(!gc); e.preventDefault() }}>gg</a>}
           {code.m && <a href={mcUrl} className={mc ? 'active' : ''} onClick={(e) => { setMc(!mc); e.preventDefault() }}>miranda</a>}
           {code.s && <a href={scUrl} className={sc ? 'active' : ''} onClick={(e) => { setSc(!sc); e.preventDefault() }}>sc2</a>}
           {code.t && <a href={tcUrl} className={tc ? 'active' : ''} onClick={(e) => { setTc(!tc); e.preventDefault() }}>tw</a>}
