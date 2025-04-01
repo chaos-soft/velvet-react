@@ -4,6 +4,7 @@ import { StrictMode } from 'react'
 
 import Album from './components/blog/album'
 import Rutube from './components/blog/rutube'
+import Search from './components/search'
 import Stream from './components/blog/stream'
 import Theme from './components/theme'
 
@@ -29,6 +30,11 @@ if (articleType === 4) {
     </Rutube>
   )
 }
+createRoot(document.getElementById('search_anchor')).render(
+  <Search>
+    <StrictMode />
+  </Search>
+)
 createRoot(document.getElementById('theme')).render(
   <Theme>
     <StrictMode />
