@@ -24,4 +24,5 @@ dist-ssr
 *.sw?
 
 /LOG
+/package-lock.json
 /public/store

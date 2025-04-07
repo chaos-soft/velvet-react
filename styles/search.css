@@ -1,0 +1,58 @@
+#search {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 'x1 x1 x1 x1 x1 x1 x7 x8';
+  grid-template-columns: repeat(8, 60px);
+  height: 100vh;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+#search > * {
+  align-self: center;
+  border-radius: 2px;
+  line-height: 2em;
+  overflow: hidden;
+}
+
+#search > .x1 {
+  display: flex;
+  grid-area: x1;
+}
+
+#search > .x1 > input {
+  background-color: white;
+  color: black;
+  flex: 100%;
+  height: 2em;
+  outline: none;
+  padding: 0 5px;
+}
+
+#search > .x7 {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: white;
+  grid-area: x7;
+  text-align: center;
+}
+
+#search > .x7:hover {
+  border: 1px solid var(--blue);
+  cursor: pointer;
+  transition: border 200ms;
+}
+
+#search > .x8 {
+  grid-area: x8;
+}
+
+#search > .x8:hover {
+  color: var(--blue);
+  transition: color 200ms;
+}
+
