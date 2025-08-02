@@ -81,11 +81,11 @@ export default function Stream ({ code }) {
     <div className='stream' style={code.i ? { backgroundImage: `url(${code.i})` } : {}} ref={stream}>
       <div className={`panel ${chat ? 'hidden' : ''}`}>
         <div className='chats'>
-          {gc && <iframe src={gcUrl} title='gc' />}
-          {mc && <iframe src={mcUrl} title='mc' />}
-          {yc && <iframe src={ycUrl} title='yc' />}
-          {tc && <iframe src={tcUrl} title='tc' />}
-          {vc && <iframe src={vcUrl} title='vc' />}
+          {gc && <iframe src={gcUrl} />}
+          {mc && <iframe src={mcUrl} />}
+          {yc && <iframe src={ycUrl} />}
+          {tc && <iframe src={tcUrl} />}
+          {vc && <iframe src={vcUrl} />}
         </div>
         <div className='controls'>
           <span>плееры:</span>

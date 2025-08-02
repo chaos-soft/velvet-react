@@ -18,7 +18,7 @@ export default function Search () {
       {createPortal(
         <form action='https://www.google.com/search' method='get' target='_blank'>
           <input type='hidden' name='q' value={`site:57st.su ${inputValue}`} />
-          <div id='search' className={isSearch ? '' : 'dn'}>
+          <div id='search' className={`search ${isSearch ? '' : 'dn'}`}>
             <div className='x1'>
               <input
                 minLength={3}

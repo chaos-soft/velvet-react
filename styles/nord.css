@@ -1,0 +1,59 @@
+html[data-theme='nord'] {
+  --a-color: var(--blue);
+  --articles-a-background-color-hover: var(--blue);
+  --articles-a-background-color: rgba(0, 0, 0, 0.7);
+  --articles-a-color: white;
+  --aurora1: #bf616a;
+  --aurora2: #d08770;
+  --aurora3: #ebcb8b;
+  --aurora4: #a3be8c;
+  --aurora5: #b48ead;
+  --blue: var(--frost3);
+  --body-color: var(--storm3);
+  --color1: var(--aurora4);
+  --color2: var(--aurora2);
+  --color3: var(--aurora5);
+  --color4: var(--aurora1);
+  --footer-color: var(--storm1);
+  --frost1: #8fbcbb;
+  --frost2: #88c0d0;
+  --frost3: #81a1c1;
+  --frost4: #5e81ac;
+  --header-a-color: var(--storm1);
+  --html-background: var(--night1);
+  --night0: #252a33;
+  --night1: #2e3440;
+  --night2: #3b4252;
+  --night3: #434c5e;
+  --night4: #4c566a;
+  --pre-background-color: var(--night1);
+  --pre-box-shadow: var(--night4);
+  --storm1: #d8dee9;
+  --storm2: #e5e9f0;
+  --storm3: #eceff4;
+}
+
+html[data-theme='nord'] .footer {
+  border-top: 5px solid var(--night4);
+}
+
+html[data-theme='nord'] .header {
+  border-bottom: 5px solid var(--night4);
+}
+
+html[data-theme='nord'] .header > div > a {
+  background-position: left;
+}
+
+html[data-theme='nord'] h2 {
+  color: var(--frost3);
+}
+
+html[data-theme='nord'] h3 {
+  color: var(--frost4);
+}
+
+html[data-theme='nord'] main {
+  background-color: var(--night0);
+}
+

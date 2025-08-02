@@ -1,0 +1,44 @@
+html[data-theme='light'] .album,
+html[data-theme='light'] .rutube {
+  padding-bottom: 0;
+}
+
+html[data-theme='light'] {
+  --a-color: var(--blue);
+  --articles-a-background-color-hover: var(--blue);
+  --articles-a-background-color: rgba(0, 0, 0, 0.7);
+  --articles-a-color: white;
+  --blue: #177cd8;
+  --body-color: black;
+  --color1: var(--dark-violet);
+  --color2: var(--orange);
+  --color3: var(--red);
+  --color4: var(--purple);
+  --dark-violet: #cb41aa;
+  --footer-color: var(--night4);
+  --header-a-color: var(--night4);
+  --html-background: white;
+  --night4: #4c566a;
+  --orange: #ff8e24;
+  --pony-dark: #622e86;
+  --pony-light: #e6458b;
+  --pre-background-color: rgba(0, 0, 0, 0.02);
+  --pre-box-shadow: rgba(0, 0, 0, 0.15);
+  --purple: #d92436;
+  --red: #9281fc;
+  --storm1: #d8dee9;
+}
+
+html[data-theme='light'] .footer {
+  border-top: 1px solid var(--storm1);
+}
+
+html[data-theme='light'] .footer > div {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+html[data-theme='light'] .header {
+  border-bottom: 1px solid var(--storm1);
+}
+

@@ -1,0 +1,67 @@
+html[data-theme='catppuccin-mocha'] {
+  --a-color: var(--lavender);
+  --articles-a-background-color-hover: var(--maroon);
+  --articles-a-background-color: var(--lavender);
+  --articles-a-color: var(--crust);
+  --base: #1e1e2e;
+  --blue: #89b4fa;
+  --body-color: var(--text);
+  --color1: var(--green);
+  --color2: var(--peach);
+  --color3: var(--mauve);
+  --color4: var(--red);
+  --crust: #11111b;
+  --flamingo: #f2cdcd;
+  --footer-color: var(--subtext1);
+  --green: #a6e3a1;
+  --header-a-color: var(--subtext1);
+  --html-background: var(--surface0);
+  --lavender: #b4befe;
+  --mantle: #181825;
+  --maroon: #eba0ac;
+  --mauve: #cba6f7;
+  --overlay0: #6c7086;
+  --overlay1: #7f849c;
+  --overlay2: #9399b2;
+  --peach: #fab387;
+  --pink: #f5c2e7;
+  --pre-background-color: var(--surface0);
+  --pre-box-shadow: var(--surface0);
+  --red: #f38ba8;
+  --rosewater: #f5e0dc;
+  --sapphire: #74c7ec;
+  --sky: #89dceb;
+  --subtext0: #a6adc8;
+  --subtext1: #bac2de;
+  --surface0: #313244;
+  --surface1: #45475a;
+  --surface2: #585b70;
+  --teal: #94e2d5;
+  --text: #cdd6f4;
+  --yellow: #f9e2af;
+}
+
+html[data-theme='catppuccin-mocha'] .footer {
+  border-top: 5px solid var(--maroon);
+}
+
+html[data-theme='catppuccin-mocha'] .header {
+  border-bottom: 5px solid var(--maroon);
+}
+
+html[data-theme='catppuccin-mocha'] .header > div > a {
+  background-position: center;
+}
+
+html[data-theme='catppuccin-mocha'] h2 {
+  color: var(--flamingo);
+}
+
+html[data-theme='catppuccin-mocha'] h3 {
+  color: var(--mauve);
+}
+
+html[data-theme='catppuccin-mocha'] main {
+  background-color: var(--base);
+}
+

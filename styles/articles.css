@@ -1,18 +1,20 @@
-.article > div > h2,
-.article > h1 {
-  text-shadow: 2px 2px 0 var(--color4);
+.article > div > :last-child {
+  margin-bottom: 0;
 }
 
 .article > div > h2 {
   margin-left: 20px;
 }
 
-.article > footer {
-  font-size: 12px;
+.article > div > h3 {
+  margin-left: 40px;
 }
 
-.article > h1 {
-  font-size: 26px;
+.article > footer {
+  display: grid;
+  font-size: 12px;
+  grid-template-areas: 'x1 x2';
+  margin-top: 20px;
 }
 
 .articles > article {
@@ -26,25 +28,23 @@
 .articles > nav > ul {
   align-items: center;
   display: flex;
+  gap: 10px;
   justify-content: center;
   list-style: none;
-}
-
-.articles > nav > ul > li {
-  margin: 0 5px;
+  margin: 0;
 }
 
 .articles > nav > ul > li > a {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: var(--articles-a-background-color);
   border-radius: 4px;
-  color: var(--color6);
+  color: var(--articles-a-color);
   display: inline-block;
   padding: 3px 7px;
   transition: background-color 200ms;
 }
 
 .articles > nav > ul > li > a:hover {
-  background-color: var(--blue);
+  background-color: var(--articles-a-background-color-hover);
   text-decoration: none;
 }
 

@@ -1,6 +1,10 @@
-.album > a {
-  display: inline-block;
-  margin: 0 10px 20px 10px;
+.album {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .album > a > img {
