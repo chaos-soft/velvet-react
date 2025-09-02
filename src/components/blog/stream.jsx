@@ -124,10 +124,10 @@ export default function Stream ({ code }) {
           </span>
         </div>
       </div>
-      {gp && <iframe src={gpUrl} title='gp' />}
-      {tp && <iframe src={tpUrl} title='tp' />}
-      {vp && <iframe src={vpUrl} title='vp' />}
-      {yp && <iframe src={ypUrl} title='yp' />}
+      {gp && <iframe src={gpUrl} />}
+      {tp && <iframe src={tpUrl} />}
+      {vp && <iframe src={vpUrl} />}
+      {yp && <iframe src={ypUrl} />}
     </div>
   )
 }
