@@ -1,13 +1,12 @@
 export default function Rutube ({ code }) {
   return (
     <div className='rutube'>
-      {code.map((id) => (
+      {code.map((id, i) => (
         <iframe
           allow='clipboard-write; autoplay'
           allowFullScreen
-          key={id}
+          key={i}
           src={`https://rutube.ru/play/embed/${id}`}
-          title='rutube'
         />
       ))}
     </div>
