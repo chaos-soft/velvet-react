@@ -1,0 +1,55 @@
+html[data-theme='base16-mocha'] {
+  .footer {
+    border-top: 5px solid var(--base02);
+  }
+
+  .header {
+    border-bottom: 5px solid var(--base02);
+  }
+
+  .header > div > a {
+    background-position: left bottom 25px;
+  }
+
+  h3 {
+    color: var(--base09);
+  }
+
+  main {
+    background-color: var(--base0j);
+  }
+
+  --a-color: var(--base0f);
+  --articles-a-background-color-hover: var(--base0f);
+  --articles-a-background-color: rgba(0, 0, 0, 0.7);
+  --articles-a-color: white;
+  --base00: #3b3228;
+  --base01: #534636;
+  --base02: #645240;
+  --base03: #7e705a;
+  --base04: #b8afad;
+  --base05: #d0c8c6;
+  --base06: #e9e1dd;
+  --base07: #f5eeeb;
+  --base08: #cb6077;
+  --base09: #d28b71;
+  --base0a: #f4bc87;
+  --base0b: #beb55b;
+  --base0c: #7bbda4;
+  --base0d: #8ab3b5;
+  --base0e: #a89bb9;
+  --base0f: #bb9584;
+  --base0j: #231e18;
+  --body-color: var(--base05);
+  --color1: var(--base0b);
+  --color2: var(--base0a);
+  --color3: var(--base0e);
+  --color4: var(--base08);
+  --footer-color: var(--base06);
+  --header-a-color: var(--base06);
+  --html-background: var(--base00);
+  --pre-background-color: var(--base00);
+  --pre-box-shadow: var(--base02);
+  --pre-color: var(--base06);
+}
+

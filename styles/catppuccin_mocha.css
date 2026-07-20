@@ -42,15 +42,15 @@ html[data-theme='catppuccin-mocha'] {
 }
 
 html[data-theme='catppuccin-mocha'] .footer {
-  border-top: 5px solid var(--maroon);
+  border-top: 5px solid var(--surface2);
 }
 
 html[data-theme='catppuccin-mocha'] .header {
-  border-bottom: 5px solid var(--maroon);
+  border-bottom: 5px solid var(--surface2);
 }
 
 html[data-theme='catppuccin-mocha'] .header > div > a {
-  background-position: center;
+  background-position: center top 25px;
 }
 
 html[data-theme='catppuccin-mocha'] h2 {

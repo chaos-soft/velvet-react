@@ -70,6 +70,7 @@ code {
 
 footer {
   color: var(--footer-color);
+  font-size: 12px;
 }
 
 html {
@@ -98,6 +99,7 @@ pre {
   background-color: var(--pre-background-color);
   border-radius: 4px;
   box-shadow: inset 0 0 2px 1px var(--pre-box-shadow);
+  color: var(--pre-color);
   overflow-x: auto;
   padding: 10px 20px;
   white-space: pre;
@@ -149,11 +151,11 @@ strong {
 }
 
 .header > div > a {
-  background: url(/store/images/logo.svg) no-repeat right;
+  background: url(/store/images/logo.svg) no-repeat right top 25px;
   display: flex;
   height: 27px;
   padding: 25px 0;
-  width: 182px;
+  width: 180px;
 }
 
 .header > div > nav {

@@ -30,6 +30,7 @@ export default function Theme () {
       <div><a onClick={scroll}>Наверх</a></div>
       <div>
         Темы:{' '}
+        <a onClick={() => switchTheme('base16-mocha')}>Base16 Mocha</a>{', '}
         <a onClick={() => switchTheme('catppuccin-mocha')}>Catppuccin Mocha</a>{', '}
         <a onClick={() => switchTheme('light')}>Светлая</a>{', '}
         <a onClick={() => switchTheme('nord')}>Nord</a>
